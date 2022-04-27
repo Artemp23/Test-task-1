@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 void transcript();
@@ -14,7 +15,9 @@ void transcript()
 {
     cout << "Enter word:\n";
     string word;
-    cin >> word;
+    getline(cin, word);
+    
+    //cin >> word;
 
     int n = word.length();
 
