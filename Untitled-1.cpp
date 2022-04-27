@@ -12,7 +12,7 @@ int main()
 
 void transcript()
 {
- cout << "Enter word:\n";
+    cout << "Enter word:\n";
     string word;
     cin >> word;
 
