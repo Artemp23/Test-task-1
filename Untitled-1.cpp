@@ -29,14 +29,10 @@ void transcript()
  
     for (int i = 0; i < n; i++)
     {
-        bool b;
-        b = false;
-
         for (int a = 0; a < n; a++)
         {   
            if (char_array[i] == char_array2[a] && i != a)
            {   
-               b = true;
                cout << ")";
                break;
             }
